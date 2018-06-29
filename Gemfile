@@ -60,3 +60,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#learn-rails
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage', '~> 3.1'
+gem 'simple_form'
+gem 'zurb-foundation'
+gem 'compass-rails'
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rails_layout'
+end
